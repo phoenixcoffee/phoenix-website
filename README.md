@@ -1,16 +1,105 @@
-# React + Vite
+# 🌐 Phoenix Coffee Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Official marketing website for **Phoenix Coffee**.
 
-Currently, two official plugins are available:
+This repository contains the public-facing website used to showcase the Phoenix Coffee brand, promote products, and direct customers to the online ordering platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare)
+![License](https://img.shields.io/badge/License-Public-brightgreen)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The Phoenix Coffee Website serves as the company's online presence. It introduces customers to the brand, highlights featured drinks, and provides information about Phoenix Coffee while directing visitors to the online ordering platform.
+
+The website is designed with a mobile-first approach and optimized for performance, SEO, and fast loading times.
+
+---
+
+## Features
+
+- Responsive design
+- Modern React + Vite architecture
+- Mobile-first layout
+- Fast page loading
+- SEO-friendly structure
+- Cloudflare Pages deployment
+- Phoenix Coffee branding
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- JavaScript (ES6)
+- CSS3
+
+### Hosting
+
+- Cloudflare Pages
+- GitHub
+
+---
+
+## Development
+
+Clone the repository
+
+```bash
+git clone https://github.com/phoenixcoffee/phoenix-website.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Deployment
+
+This website is automatically deployed using **Cloudflare Pages** whenever changes are pushed to the `main` branch.
+
+---
+
+## Related Projects
+
+| Repository | Purpose |
+|------------|---------|
+| **phoenix-coffee-store** | Customer ordering application |
+| **phoenix-order-backend** | Google Apps Script backend and order automation |
+
+---
+
+## Author
+
+**Daniel Angeles**
+
+Phoenix Coffee
